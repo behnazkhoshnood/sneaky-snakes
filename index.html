@@ -14,217 +14,539 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <section class="container-fluid">
+        <!-- Game Logo -->
         <div class="d-flex justify-content-center">
-            <image src="assets/images/green-snake.png" class="icon green-snake my-3" alt="Green Snake"></image>
-            <h1 class="text-center my-5">Sneaky Snakes<br><span>Board game</span></h1>
-            <image src="assets/images/blue-snake.png" class="icon blue-snake my-3" alt="Blue Snake"></image>
+            <img src="assets/images/green-snake.png" class="icon green-snake my-3" alt="Green Snake">
+            <h1 class="text-center my-5">Snake Thron</h1>
+            <img src="assets/images/blue-snake.png" class="icon blue-snake my-3" alt="Blue Snake">
         </div>
+        <!-- Game description -->
+        <p class="text-center">You are a mama snake Queen and just layed out your egg in your nest. You need to hurry
+            and take your
+            egg to the thron with you to make it the air to the thron. Protect your egg, be the fastest to take it
+            to
+            the thron and sabetage other potensial airs.
+        </p>
+        <hr>
+        <!-- How to Win -->
+        <h2 class="text-center">How To Win</h2>
+        <p class="text-center">The first player that reaches 3 victory point (VP) wins the game.</p>
+        <h3 class="text-center">How do you get VP?</h3>
+        <p class="text-center">When you reach the thron, for each egg you have on the board you get one VP, and for each
+            time someone else take
+            your egg to the
+            thron you loose one VP.</p>
+        </p>
+        <hr>
         <!-- starting package -->
         <div class="row justify-content-evenly d-flex align-items-center">
             <div class="col-12 col-md-4 col-lg-6">
-                <h3 class="text-center">Starting pakage:</h3>
-                <ol>
-                    <li>Each player choose a color and takes the matching:</li>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Snake Head <span class="amount">X 1</span></li>
-                        <li class="list-group-item">Snake Egg <span class="amount">X 1</span></li>
-                        <li class="list-group-item">Snake body/tail <span class="amount">X 7</span></li>
-                        <li class="list-group-item">Players Mat <span class="amount">X 1</span></li>
-                        <li class="list-group-item">Movement Cards <span class="amount">X 20</span></li>
-                    </ul>
-                    <li>Suffle your movement cards, and place them face down on your draw part of your player mat.</li>
-                </ol>
+                <h2 class="text-center">Starting package:</h2>
+                <p>Each player choose a color and takes the matching:</p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Snake Head<span class="amount">X 1</span></li>
+                    <li class="list-group-item">Snake Egg<span class="amount">X 1</span></li>
+                    <li class="list-group-item">Players Mat<span class="amount">X 1</span></li>
+                    <li class="list-group-item">Snake parts<span class="amount">X 7</span></li>
+                    <li class="list-group-item">Movement Cards<span class="amount">X 20</span></li><br>
+                    <p class="text-center">The last snake part you have on the bored is your snake tail.<br>
+                        Snake
+                        head, super snake parts and eggs are also count as a snake part.<br>
+                        <strong>You get one requirement point for each snake parts you have on the board.</strong><br>
+                        All snake parts except the super snake parts gives one requirement point.<br>
+                        Super snake part gives 3 requirements point.
+                    </p>
+                </ul>
+                <br>
             </div>
             <div class="col-12 col-md-8 col-lg-6">
                 <a href="assets/images/players-starting-package.png" target="_blank">
-                    <image src="assets/images/players-starting-package.png" class="img-thumbnail"
+                    <img src="assets/images/players-starting-package.png" class="img-thumbnail"
                         alt="Players Starting Package">
                 </a>
             </div>
         </div>
         <hr>
-        <!-- board note and image -->
+        <!-- Players Set Up -->
         <div class="row justify-content-evenly d-flex align-items-center">
             <div class="col-12 col-md-4 col-lg-6">
-                <h3 class="text-center">Board Set Up:</h3>
+                <h2 class="text-center">Set Ups:</h2><br>
+                <h3 class="text-center">Player Set Up:</h3>
                 <ol>
-                    <li> Place your <strong>Snake head</strong> in the start point of a matching color, in the same
-                        direction as arrows
-                        on the
-                        board.</li>
-                    <li> Place your <strong>egg</strong> in the nest of your starting square.</li>
-                    <li> Put the <strong>Special movement cards</strong>, faceup near the board.</li>
-                    <li> Seperate the four type of <strong>damage cards</strong> <small>(Biten, Poisioned, Hybnotized,
-                            Killed)</small>,
-                        and place them, face up, in four seperate piles.</li>
-                    <li> Seperate the <strong>nest and center upgrade cards</strong>, Suffle them and place them, face
-                        down, in 2 piles.
+                    <li> Place your <strong>Snake head</strong> outside of the board, next to the arrow tile of your
+                        chosen color
+                        with the same
+                        direction as the arrow.
                     </li>
-                    <li> Draw <strong>three cards</strong> from each upgrade pile and place them, face up next to the
-                        upgrade piles.</li>
-                    <li> Place <strong>the super snake parts</strong><small>( golden color parts X9 ) in a pile next to
-                            the
-                            board. These parts are equal to 3 body/tail parts.</small></li>
+                    <li> Place your <strong>egg</strong> in the nest of your color area.</li>
+                    <li>Place other snake parts in your reserve pool, on your players mat.</li>
+                    <li>Suffle your movement cards, and place them, face down, on the draw part of your players mat.
+                    </li>
                 </ol>
             </div>
             <div class="col-12 col-md-8 col-lg-6">
-                <a href="assets/images/board-preperation.png" target="_blank">
-                    <image src="assets/images/board-preperation.png" class="img-thumbnail"
+                <a href="assets/images/player-set-up.png" target="_blank">
+                    <img src="assets/images/player-set-up.png" class="img-thumbnail" alt="Sneaky Snake Board image">
+                </a>
+            </div>
+        </div>
+        <br>
+        <!-- board Set Up -->
+        <div class="row justify-content-evenly d-flex align-items-center">
+            <div class="col-12 col-md-4 col-lg-6">
+                <h3 class="text-center">Board Set Up:</h3>
+                <p class="text-center">Put these items where everyone can reach it.</p>
+                <ol>
+                    <li> Put the <strong>Special movement cards</strong>, faceup.</li>
+                    <li> Seperate the four type of <strong>damage cards</strong> <small>(Biten, Poisioned,
+                            Hypnotized,
+                            Killed)</small>,
+                        and place them, face up, in four seperate piles.</li>
+                    <li> Seperate the <strong>nest</strong> and <strong>thron upgrade
+                            cards</strong>,
+                        Suffle them and place
+                        them, face
+                        down, in 2 piles.
+                    </li>
+                    <li> Draw <strong>three cards</strong> from <strong>each upgrade pile</strong> and place
+                        them, face
+                        up next to the
+                        upgrade piles.</li>
+                    <li> Place <strong>the super snake parts</strong>
+                        <small>( golden color parts X9 ) in a pile next to
+                            the board. These parts are equal to 3 snake parts.
+                        </small>
+                    </li>
+                </ol>
+            </div>
+            <div class="col-12 col-md-8 col-lg-6">
+                <a href="assets/images/board-set-up.png" target="_blank">
+                    <img src="assets/images/board-set-up.png" class="img-thumbnail" alt="Sneaky Snake Board image">
+                </a>
+            </div>
+        </div>
+        <hr>
+        <!-- How to Play -->
+        <h2 class="text-center">How To Play:</h2><br>
+        <p class="ps-3">Sneaky Snakes is played in rounds, each round is made up of the following three phases:
+        </p>
+        <ol>
+            <h3 class="text-center">Game phases</h3>
+            <li>Board Preperation Phase</li>
+            <li>The Stratagy Phase</li>
+            <li>The Movement Phase</li>
+        </ol>
+        <hr>
+        <!-- The board preperation Phase -->
+        <h3 class="text-center">The Board preperation Phase</h3><br>
+        <div class="row justify-content-evenly d-flex align-items-center">
+            <div class="col-12 col-md-4 col-lg-6">
+                <ol>
+                    <li>Roll 2 dices of red and green.</li>
+                    <li>the red one shows the number of the nest/center and the green one shows the number of
+                        the tile
+                        in
+                        that nest/center.
+                    </li>
+                    <li>Put one super snake part in this tile.</li>
+                    <p>If a player snake parts is in this tile, super snake parts goes to this player <strong>reserve
+                            pool</strong> and should be used in the next
+                        growing move.</p>
+                    <p class="ps-3">If any of the dices show 0 skip this phase.</p>
+                    <p class="ps-3">
+                        <small>When a player dies, use these steps to determain the respwning tile for that
+                            player.
+                        </small>
+                    </p>
+                    <p class="ps-3">
+                        <small>If you get shot when the super part is in your tail. Put the super snake part back and
+                            put 2 normal part in your tail instead.
+                        </small>
+                    </p>
+
+                </ol>
+            </div>
+            <div class="col-12 col-md-8 col-lg-6">
+                <a href="assets/images/board-preperation-phase.png">
+                    <image src="assets/images/board-preperation-phase.png" class="img-thumbnail"
                         alt="Sneaky Snake Board image">
                 </a>
             </div>
         </div>
         <hr>
-        <!-- How to Win -->
-        <div class="col-8 offset-2">
-            <h3 class="text-center">How To Win</h3>
-            <p>Try to steal the eggs from the nest and take them to the center shop before you get cought.
-                Player with the most eggs wins the game.
-            </p>
+        <!-- The Stratagy Phase -->
+        <h3 class="text-center">The Stratagy Phase</h3><br>
+        <p class="text-center"><strong>All players do this phase simultaneously.</strong></p>
+        <div class="row justify-content-evenly d-flex align-items-center">
+            <div class="col-12 col-md-4 col-lg-6">
+                <ol>
+                    <li>Draw 9 cards from the top of your movement cards deck.</li>
+                    <li>Choose 5 of them and place them, facedown, on your plan slots.
+                        <small>( These 5 cards, show the path you choose to take on the board. )</small>
+                    </li>
+                    <li>Put the 4 cards, that you didn't use in your plan slots, in your discard pile.</li>
+                </ol>
+                <ol>
+                    <p><strong>What should I do if the movement cards in my draw pile isless than 9
+                            cards?</strong>
+                    </p>
+                    <li>Keep the ones that are left ( if any )</li>
+                    <li>Shuffle your discard pile, and place it in your draw pile.</li>
+                    <li>Now take as many cards as you need, from the top of the draw deck to reach 9 cards.</li>
+                    <li>Continue as before.<small> ( step 2 from the last list )</small></li>
+                </ol>
+            </div>
+            <div class="col-12 col-md-8 col-lg-6">
+                <a href="assets/images/stratagy-phase.png">
+                    <image src="assets/images/stratagy-phase.png" class="img-thumbnail" alt="Damage Cards">
+                </a>
+            </div>
         </div>
         <hr>
-        <!-- How to Play -->
-        <div class="col-8 offset-2">
-            <h3 class="text-center">How To Play</h3>
-            <p>Sneaky Snakes is played in rounds, each round is made up of the following three phases:
-            </p>
-            <ol>
-                <li>Board Preperation Phase</li>
-                <li>The Stratagy Phase</li>
-                <li>The Movement Phase</li>
-            </ol>
-            <!-- The board preperation Phase -->
-            <h5>The Board preperation Phase</h5>
-            <p>Roll 2 dices of red and green.
-                the red one shows the number of the nest/center and the green one shows the number of the tile in that
-                nest/center.
-                Put one super snake part in this tile.
-            </p>
-            <br>
-            <!-- The Stratagy Phase -->
-            <h5>The Stratagy Phase</h5>
-            <p><strong>All players do this phase simultaneously.</strong>
-            </p>
-            <p>Draw 9 cards from the top of your movement cards deck. Choose 5 of them and place them, facedown, on your
-                plan slots.<br>
-                These 5 cards will show how you plan to move in the board in the order you place them.<br>
-                After filling all the 5 slots with a movement card, put the other 4 cards in your discard pile.
-            </p>
-            <p><strong>What should I do if the movement cards in my draw pile is less than 9 cards?</strong><br>
-                keep the ones that are left(if any), shuffle your discard pile, and place it in your draw pile.<br>
-                Now take as many cards as you need, from the top of the draw deck to reach 9 cards. Continue as before.
-            </p>
-            <br>
-            <!-- The movement phase -->
-            <h5>The Movement Phase</h5>
-            <p>Start moving your snake step by step based one the movement cards that you put on your plan slots, in the
-                stratagy phase.
-                Each time you move forward you should place a tail part, from your reserve snake parts, in the path you
-                just
-                passed and grow your tail.<br>
-            </p>
-            <p><strong>Why do you want to grow your tail?</strong> The tail/body parts on the board are the requirement
-                for upgrading.
-            </p>
-            <p><strong>What happens if you run out of reserve parts?</strong> Just continue your path without putting
-                any
-                parts on the board.
-            </p>
-            <!-- Priority -->
-            <h6>Who moves first? ( Priority )</h6>
-            <p><strong>When priority is important?</strong> During the movement phase and shoping, players must
-                determine
-                priority to see who goes first.<br>
-            </p>
-            <p><strong>How deos the priority works?</strong> The black numbers of each tile shows the priority. The
-                higher
-                number has the
-                higher priority.
-            </p>
-            <p><strong>What happens if players have the same priority?</strong> Roll a dice. The higher number
-                determines
-                who goes first.
-            </p>
+        <!-- The movement phase -->
+        <h3 class="text-center">The Movement Phase</h3>
+        <p class="text-center"><strong>All players do this phase simultaneously.</strong></p>
+        <p class="ps-3">This is the main phase of the game. In this phase you use the 5 cards you used on your plan
+            slots to move in the board plan by plan.<br>
+        </p>
+        <br>
+        <!-- each plan walkthrough -->
+        <div class="row justify-content-evenly d-flex align-items-center">
+            <div class="col-12 col-md-4 col-lg-6">
+                <h4 class="text-center">In each plan in movement phase do these in this order if some interfiar
+                    together:</h4>
+                <ol>
+                    <li> Move based on priority.</li>
+                    <li>Grow your snake.</li>
+                    <li> Take an egg form the nest</li>
+                    <li> Shoping upgrade cards with your requirement points</li>
+                    <li> Shooting a snake</li>
+                    <li> Bumping to a snake</li>
+                    <li>Take damage cards</li>
+                    <li>take a respawned egg</li>
+                </ol>
+                <br>
+                <!-- priority -->
+                <h4 class="text-center">Move based on priority.</h4><br>
+                <p>The priority is based on the numbers on the movement cards in that plan slot.<br>
+                    If players have the same priority they should role a dice to determine who moves first.<br>
+                    The highest number moves first and then other players move in priority number.
+                </p>
+            </div>
+            <div class="col-12 col-md-8 col-lg-6">
+                <a href="assets/images/plan-1.png">
+                    <image src="assets/images/plan-1.png" class="img-thumbnail" alt="Damage Cards">
+                </a>
+            </div>
         </div>
-        <hr>
-        <!-- Steal an egg -->
-        <div class="col-8 offset-2">
-            <h3 class="text-center">Steal an egg</h3>
-            <p> When you enter a middle tile of a nest/minor shops. you steal the egg in that tile. (If there is one!
-                and
-                even if it's the same color egg as your snake ).<br>
-                Put the egg on the bored as you add a body part to your snakes tail. Take the egg to the Major shop (
-                before
-                you get cought. )
-            </p>
-            <p><strong>While you are carring an egg it considers as your snake body/tail parts.</strong>
-            </p>
-            <p><strong>How do you get cought/shot</strong> If other player(s) shoot your snake in the head part or the
-                egg
-                part on your tail. the
-                egg goes back to the matching color nest.
-            </p>
+        <br>
+        <!-- grow your snake -->
+        <div class="row justify-content-evenly d-flex align-items-center">
+            <div class="col-12 col-md-4 col-lg-6">
+                <h4 class="text-center">Grow your snake.</h4><br>
+                <h5>Where and when to place your tail?</h5>
+                <ul>
+                    <li> When there is no empty tile, in 4 directions, around your tail. you can't grow your tail.
+                    </li>
+                    <p>If this happens when you taking an egg or a super part. These parts go to your reserve and
+                        you should put them on the board in your next moves.<br>
+                        Puting back the egg on the board has the most priority, then a super part and then normal snake
+                        parts.</p>
+                    <li> When there is only one empty tile, in 4 directions, around your tail. you can grow your
+                        tail only in that tile</li>
+                    <li> When there is several empty tiles, in 4 directions, around your tail. you can choose which
+                        tile you want to plae your tail in.</li>
+                </ul>
+                <h5>How can I grow my tail?</h5>
+                <ul>
+                    <li>Grow with snake parts in your reserve pool.</li>
+                    <ul>
+                        <li>when using any forward movement cards.</li>
+                        <li>when using a grow up movement cards.</li>
+                        <li>When using the again movment card after any of the movement or grow up cards.</li>
+                    </ul>
+                    <li>Grow with taking an egg or a super part on the board</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-8 col-lg-6">
+                <a href="assets/images/plan-4.png">
+                    <image src="assets/images/plan-4.png" class="img-thumbnail" alt="Damage Cards">
+                </a>
+            </div>
+
         </div>
-        <hr>
-        <!-- The Upgrade shop -->
-        <div class="col-8 offset-2">
-            <h3 class="text-center">The Upgrade shop</h3>
-            <p>Nests/minor upgrade shops, and Center/major upgrade shop are marked on the board.<br>
-                The number shown on top of each upgrade card is the amount of body/tail parts player should have in
-                his/her
-                tail to take that card.
-            </p>
-            <p><strong>Nest/Minor upgrade cards:</strong> The upgrade cards you can buy from the nest/minor shops are
-                minor
-                upgrades.<br>
-                These cards are one time use only.( red color )
-            </p>
-            <p><strong>Center/Major upgrade cards:</strong> The upgrade cards you can buy from the center/major upgrade
-                shop
-                are major upgrades. ( golden color )<br>
-                These cards are permanant. You still need to have the minimum required parts on the board, otherwise you
-                should discard the card(s) that passed the requiredments limit.
-            </p>
-            <p><strong>Allways fill the shop after someone buys a card.</strong> There should always be three upgrade
-                cards
-                in each shop ( six In total ). When a player takes a card from
-                a shop, replace it with another card with the same color imediatly.
-            </p>
-            <p><strong>When can I use the upgrade cards? You may use your upgrade card at anytime during the stratagy or
-                    movement phase.</strong>
-            </p>
-            <p><strong>What if none of the cards in the shop are useful to me?</strong><br>
-                You may loose a body part on the board to refresh the shop(s).<small>You can't do this if you are not
-                    currantly in a shop</small>
-            </p>
+        <!-- take an egg-->
+        <div class="row justify-content-evenly d-flex align-items-center">
+            <div class="col-12 col-md-4 col-lg-6">
+                <h4 class="text-center">Take an egg from the nest</h4><br>
+                <p class="ps-3">When you enter a nest, you can <strong>take the egg</strong> from the nest. ( If it's
+                    still there )</p><br>
+                <p>Put the egg on your tail if there is empty space to grow, otherwise put it in your reserve pool
+                    until you can put it on the board.
+                    If you manage to take the egg to the thron when it's in your tail you get one VP point.
+                    If you get shot when the egg is in your tail, or someone takes an egg successfully to the thron, the
+                    egg spawns back to it's original nest.<br>
+                    If it lands on a snake part. it goes straight to the reserve pool of the snake it landed on.
+                </p>
+            </div>
+            <div class="col-12 col-md-8 col-lg-6">
+                <a href="assets/images/plan-5.png">
+                    <image src="assets/images/plan-5.png" class="img-thumbnail" alt="Damage Cards">
+                </a>
+            </div>
         </div>
+        <br>
+        <!-- upgrade shops-->
+        <h4 class="text-center">Upgrade Shops General Rules</h4><br>
+        <p>Each snake parts, including head and eggs, you have on the board gives you one requirement point and a super
+            snake part gives you 3 requirement points.<br>
+            you can use these points to take an upgrade card from the shops.<br>
+            you can have as many upgrade cards you want, as long as their total requirements points is less than or equal to your total
+            requirement points.
+            Otherwise you need to discard as many upgrade cards needed to reach this condition.
+        </p>
+        <p>There should always be three upgrade cards in each shop.
+            ( 3 red cards and 3 golden cards ).<br>
+            When a player takes a card from a shop, replace it with another card with the same color imediatly.
+        </p><br>
+        <p>You can use your upgrade cards at any time you want.<br>
+            If there isn't any upgrade card that you like in the nest upgrade shop
+            You may loose a body part on the board to refresh the shop(s).
+            <small>You can't do this if
+                you are
+                not
+                currantly in a shop
+            </small>
+        </p>
+        <!-- nest shop -->
+        <h5 class="text-center">The Nest shop:</h5><br>
+        <p>Nests are marked on the board. When you enter a nest, you can take any minor upgrade cards in the shop.<br>
+            The number shown on top of each upgrade card is
+            the amount of requirement points they need for you to be able to use it.
+        </p>
+        <p>
+            Minor upgrade cards ( red color ) are temporary and should be discarded after usage.
+        </p>
+        <br>
+        <!-- thron upgrade shop -->
+        <h5 class="text-center">The Thron Shop</h5><br>
+        <p>Thron is placed exactly in the middle tile of the board.<br>
+            When you are in the thron you can take <strong>both major and minor upgrade cards.</strong><br>
+            Major upgrade cards are <strong>permanant</strong> but you still need to have the minimum requirment
+            points on the board to keep them,
+            otherwise
+            you
+            should discard the card(s) that passed your requirement point limit.
+        </p>
+        <br>
         <hr>
-        <!-- Playing a round -->
-        <p></p>
+        </div>
+        <div class="col-12 col-md-8 col-lg-6">
+            <!-- <a href="A short clip to show how shops work.">
+                <image src="" class="img-thumbnail"
+                alt="upgrade shops">
+            </a> -->
+        </div>
+        </div>
+        <br>
+        <!-- Fighting Rules -->
+        <div class="row justify-content-evenly d-flex align-items-center">
+            <div class="col-12 col-md-4 col-lg-6">
+                <h4 class="text-center">Shooting a snake</h4><br>
+                <p>Shots just hit the first snake in their path and don't go through. This counts for any egg or super parts in the way. They would block your shot.</p>
+                <ul>
+                    <p class="ps-3">When a player's snake head, facing any of your snake parts, these situations can happen.</p>
+                    <li><strong>If you have a normal snake part in your tail.</strong></li>
+                    <p>You get as much damage card as the players damage power. Place the damage cards in your discard
+                        pile.<br>
+                        Players usualy just have one damage power but it can change using an upgrade card.
+                    </p>
+                    
+                    <li><strong>If you have an egg in your tail</strong></li>
+                    <p>You get as much damage card as the players damage power. Place the damage cards in your discard
+                        pile.<br>
+                        <strong>You also loose the egg. Put it back in it's original nest.</strong>
+                    </p><br>
+                    <li><strong>If you have a super part in your tail</strong></li>
+                    <p>You get as much damage card as the players damage power. Place the damage cards in your discard
+                        pile.<br>
+                        <strong>For each damage take one point out from the 3 requirement points of the super part. <br>
+                            Put the super part back to super parts reserve pool and take back 1 to 2 normal snake parts
+                            back to the boar instead, based on the damage of the shooter.</strong><br>
+                        <small>For example if you took 2 damage, loose the super part and just put one normal part in
+                            your tail instead.</small>
+                    </p><br>
+                </ul>
+                <h4 class="text-center">Bumping to a snake</h4>
+                <ul>
+                    <p class="ps-3">When bumping in to another player's snake, these situations can
+                        happen:</p>
+                    <li><strong>You bump in to any snake part of another player except head:</strong></li>
+                    <p>You die.</p>
+                    <ol>
+                        <li>Put back all your snake parts from the board to your reserve pool.</li>
+                        <li>Loose the upgrade cards that you can't use.</li><br>
+                        <small>
+                            Since you just respwen with your head you can only have a card that needs 1 requirement
+                            point.
+                        </small>
+                        <li>Roll a green and red dice to respwen in the tile determined with the dices</li>
+                        <small>( The same way you determine the placing of a super parts. )</small>
+                        <li>Continue your movements from the spot you respwen.</li><br>
+                    </ol>
+                    <li><strong>Players move in the same tile together:</strong><small> ( Head bumping
+                            )</small></li>
+                    <p>The player with the higher priority moves to this tile and the other player(s) die.
+                    </p>
+                    <br>
+                </ul>
+                </p>
+            </div>
+            <div class="col-12 col-md-8 col-lg-6">
+                <!-- <a href="A shor clip to show how shootin/fights work.">
+                <image src="" class="img-thumbnail"
+                alt="Shooting and fights">
+            </a> -->
+            </div>
+        </div>
         <hr>
         <!-- damage cards -->
-        <div class="col-8 offset-2">
-            <h3 class="text-center">Damage Cards</h3>
-            <ul class="damage-cards">
-                <li><strong>Biten:</strong> loose one snake part from the board</li>
-                <li><strong>poisioned:</strong> loose one snake part for each planed card that is not executed.
-                    <small> exp: if you use this card in the 3rd plan slot, you should loose 3 parts and if you use the
-                        card
-                        in the 4rth slot, you loose 2 parts.</small>
-                </li>
-                <li><strong>Hypnotized:</strong> Discard all the planed moves from this slot and the rest of the moves
-                    that
-                    is left in this round and replace them with a random cards from the top of your draw pile.</li>
-                <li><strong>Killed:</strong> instant death, respone and loose all of your upgrades and body parts.</li>
-            </ul>
+        <div class="row justify-content-evenly d-flex align-items-center">
+            <div class="col-12 col-md-4 col-lg-6">
+                <h4 class="text-center">Take Damage Cards</h4>
+                <p>When you get shot by another player you get as much damage cards as that player damage power.<br>
+                    Normally players have 1 attack power but it can increase with some upgrade cards.</p>
+                <p>Take the damage card and place it in your movement cards discard pile.<br>
+                    Damage cards polute your movement cards deck and limit your movements by poping up in your 9 card
+                    choices in stratagy phase.<br>
+                    eventually you might be forced to place them in your plan slots.</p>
+                <ul class="damage-cards">
+                    <li><strong>Biten:</strong> loose one snake part from the board</li>
+                    <li><strong>poisioned:</strong> loose one snake part for each face down movement cards you have in
+                        your plan slots.
+                        <small> exp: if you use this card in the 3rd plan slot, you should loose 3 parts and if
+                            you use
+                            the
+                            card
+                            in the 4rth slot, you loose 2 parts.</small>
+                    </li>
+                    <li><strong>Hypnotized:</strong> Discard all your upgrade cards.</li>
+                    <li><strong>Killed</strong> instant death, respone and loose all of your upgrades and body
+                        parts.
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-8 col-lg-6">
+                <!-- <a href="A short clip to show what are damage cards.">
+                <image src="" class="img-thumbnail"
+                alt="Damage Cards">
+            </a> -->
+            </div>
         </div>
-
+        <hr>
+        <!-- take a respawned egg -->
+        <div class="row justify-content-evenly d-flex align-items-center">
+            <div class="col-12 col-md-4 col-lg-6">
+                <h4 class="text-center">take a respawned egg</h4>
+                <p>When a player get shot, when carring an egg in his/her tail, or a snake takes an egg to the thron
+                    successfully, the egg respawn back to it's orginal nest.<br>
+                    If there is a player's snake part in that nest, this player gets the egg in his/her reserve pool and
+                    has to put it in his/her tail in the next moves as soon as possible.
+                </p>
+            </div>
+            <div class="col-12 col-md-8 col-lg-6">
+                <!-- <a href="A short clip to show what are damage cards.">
+        <image src="" class="img-thumbnail"
+        alt="Damage Cards">
+    </a> -->
+            </div>
+        </div>
+        <hr>
+        <!-- one movement phase walkthrough -->
+        <div class="row justify-content-evenly d-flex align-items-center">
+            <div class="col-12 col-md-4 col-lg-6">
+                <h3 class="text-center">Walk through of one movement phase</h3>
+                <ol>
+                    <li>Turn your movement card, in your first plan slot, faceup.</li>
+                    <li>Each player move based on their <strong>priority</strong> numbers writen on this card.</li>
+                    <p><small>The player with highest priority number moves first and then other players move based on
+                            their priority.</small></p>
+                    <p>If players have the same priority number, role a dice. The higher number determines who
+                        goes
+                        first.</p>
+                    <li>Each time you move forward, place a snake part on the path you just passed, from your
+                        reserve pool.</li><small>If you don't have any more parts in your reserve pool, move your tail
+                        in the path you just passed, tile by tile</small>
+                    <li>Now do these steps for the rest of the movement cards.</li>
+                    <li>After using all the 5 movement cards on your mat, discard them in your discard pile.</li>
+                    <li>Finish the round and start from the preperation phase again.</li>
+                </ol>
+            </div>
+            <div class="col-12 col-md-8 col-lg-6">
+                <div id="carouselExampleDark" class="carousel slide carpusel-fade" data-interval="false"
+                    data-bs-touch="true" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="assets/images/plan-1.png" target="_blank">
+                                <img src="assets/images/plan-1.png"
+                                    class="d-block starting-round-carousel-img img-thumbnail" alt="Plan 1">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="assets/images/plan-2.png" target="_blank">
+                                <img src="assets/images/plan-2.png"
+                                    class="d-block starting-round-carousel-img img-thumbnail" alt="Plan 2">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="assets/images/plan-3.png" target="_blank">
+                                <img src="assets/images/plan-3.png"
+                                    class="d-block starting-round-carousel-img img-thumbnail" alt="Plan 3">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="assets/images/plan-4.png" target="_blank">
+                                <img src="assets/images/plan-4.png"
+                                    class="d-block starting-round-carousel-img img-thumbnail" alt="Plan 4">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="assets/images/plan-5.png" target="_blank">
+                                <img src="assets/images/plan-5.png"
+                                    class="d-block starting-round-carousel-img img-thumbnail" alt="Plan 5">
+                            </a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleDark"
+                        data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <br>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleDark"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <hr>
 
         <div class="back-to-top-arrow">
             <a href="#"><i class="fas fa-arrow-up col"></i></a>
         </div>
-    </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
